@@ -14,6 +14,7 @@ const Hero = ({ mainData }: HeroProps) => {
 
     const { theme } = useTheme()
     const { name, titles, heroImage, shortDesc, techStackImages } = mainData
+   
     return (
         <section id='home' className={`${theme === 'dark' && "bg-grey-900"} relative min-h-screen w-full mx-auto overflow-hidden`}>
 

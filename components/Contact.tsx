@@ -6,6 +6,7 @@ import Image from "next/image";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 
+
 const Contact = () => {
 
     const [values, setValues] = useState({
