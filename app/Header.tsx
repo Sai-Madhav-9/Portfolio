@@ -14,6 +14,11 @@ export default function Header({ logo }: { logo: string }) {
     const { theme, setTheme } = useTheme()
 
     useEffect(() => {
+        setTheme('dark');
+    }, [setTheme]);
+
+    
+    useEffect(() => {
         const updateScroll = () => {
             window.scrollY >= 90 ? setScroll(true) : setScroll(false)
         }
